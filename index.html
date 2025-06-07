@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Buketnya siapa</title>
+
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- feather icons -->
+    <script src="https://unpkg.com/feather-icons"></script>
+
+    <!-- my style -->
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+
+    <!-- Keranjang belanja, posisi fixed di kanan atas -->
+<div id="cart" style="display:none; position:fixed; top:60px; right:10px; background:#fff; border:1px solid #ccc; padding:10px; width:300px; max-height:400px; overflow-y:auto; z-index:999;">
+  <h3>Keranjang Belanja</h3>
+  <ul id="cart-items"></ul>
+  <p>Total: Rp <span id="cart-total">0</span></p>
+  <button id="close-cart">Tutup</button>
+</div>
+
+    <!-- navbar start -->
+    <nav class="navbar">
+      <a href="#" class="navbar-logo">Nadira<span>Buket</span>.</a>
+
+      <div class="navbar-nav">
+        <a href="#home">Home</a>
+        <a href="#about">Tentang Kami</a>
+        <a href="#menu">Menu</a>
+        <a href="#contact">Kontak</a>
+      </div>
+
+      <div class="navbar-extra">
+        <a href="#" id="search"><i data-feather="search"></i></a>
+        <a href="#" id="shopping-cart"><i data-feather="shopping-cart"></i></a>
+        <a href="#" id="hamburger-menu"><i data-feather="menu"></i></a>
+      </div>
+    </nav>
+    <!-- navbar end -->
+
+    <!-- hero section start -->
+    <section class="hero" id="home">
+      <main class="content">
+        <h1>Buket indah untuk <span>Siapa</span></h1> 
+        <p>Buket adalah rangkaian bunga yang disusun indah dan bermakna, biasanya digunakan untuk mengungkapkan perasaan dalam berbagai acara seperti pernikahan, ulang tahun, atau belasungkawa. Selain estetika, setiap bunga dalam buket sering memiliki makna simbolis yang memperkuat pesan yang ingin disampaikan.
+"</p>
+      </main>
+    </section>
+    <!-- hero section end -->
+
+    <!-- about section start -->
+    <section id="about" class="about">
+      <h2><span>Tentang</span> Kami</h2>
+
+      <div class="row">
+        <div class="about-img">
+          <img src="img2/248e298d-5ae2-4128-830e-5ee8a57fec5e.png" alt="Tentang Kami">
+        </div>
+        <div class="content">
+          <h3>kenapa harus aku?</h3>
+          
+          <p>Nadira Buket adalah toko buket bunga yang menghadirkan rangkaian bunga segar untuk berbagai momen spesial.
+Kami percaya bahwa setiap bunga memiliki makna, dan setiap buket mampu menyampaikan perasaan tanpa kata.
+Dengan tim florist berpengalaman, kami merangkai setiap pesanan dengan detail, keindahan, dan cinta.
+Kami menyediakan buket untuk ulang tahun, wisuda, anniversary, pernikahan, hingga ucapan duka.
+Setiap produk dapat disesuaikan agar lebih personal dan berkesan bagi penerima.
+Kami selalu menggunakan bunga segar pilihan untuk memastikan kualitas terbaik.
+Nadira Buket juga menyediakan layanan pemesanan online yang praktis dan aman.
+Kami ingin setiap buket yang dikirim membawa senyuman dan kehangatan hati.
+Kepuasan pelanggan menjadi prioritas utama dalam setiap layanan kami.
+Terima kasih telah mempercayakan momen indah Anda bersama Nadira Buket.
+
+Setiap tegukan punya aftertaste yang dalam, ninggalin kesan berkelas, pas banget buat kamu yang aura kegantengannya nggak bisa disembunyikan bahkan di balik hoodie. Ini bukan cuma minuman, bro—ini pernyataan. Kamu ganteng, kopinya juga harus sebanding</p>
+          
+        </div>
+        </div>
+</section>    
+
+<!-- about section end -->
+
+    <!-- menu section start -->
+    <section id="menu" class="menu">
+      <h2><span>Menu</span> Kami</h2>
+      <p>
+        Dari bunga yang indah seperti kamu.
+      </p>
+
+      <div class="row">
+        <div class="menu-card">
+          <img src="img2/049cb8ee-c103-44d7-b6ab-f9806069e8c1.png" alt="Bunga pink " class="menu-card-img" />
+          <h3 class="menu-card-tittle">Bunga pink</h3>
+          <p>Bunga yang indah</p>
+          <p class="menu-card-price">Rp 75.000</p>
+          <a href="#" class="cta">  Beli sekarang</a>
+        
+        </div>
+        
+       
+      <div class="menu-card">
+          <img src="img2/742a8c46-a9f1-4258-bcde-210361a6a567.png" alt ="Bunga putih" class="menu-card-img" />
+          <h3 class="menu-card-tittle">Bunga putih</h3>
+          <p>Buga yang indah</p>
+          <p class="menu-card-price">Rp 75.000</p>
+          <a href="#" class="cta">Beli sekarang</a>
+      </div>
+      <div class="menu-card">
+          <img src="img2/buket-bunga-buket-valentine-jakarta-a.jpg" alt="Buket pink 2" class="menu-card-img" />
+          <h3 class="menu-card-tittle">Bunga pink 2</h3>
+          <p>Bunga yang indah</p>
+          <p class="menu-card-price">Rp 75.000</p>
+          <a href="#" class="cta">Beli sekarang</a>
+      </div>
+      <div class="menu-card">
+          <img src="img2/floweradvisor_buket_bunga_mawar_biru_-_karangan_bunga_mawar_hadiah_perayaan_full82_n21j8hkk.webp" alt="Bunga biru" class="menu-card-img" />
+          <h3 class="menu-card-tittle">Bunga Biru</h3>
+          <p>Bunga yang idah</p>
+          <p class="menu-card-price">Rp 50.000</p>
+          <a href="#" class="cta">Beli sekarang</a>
+      </div>
+      
+    
+      
+      <div class="menu-card">
+          <img src="img2/merah.webp" alt="Bunga merah" class="menu-card-img" />
+          <h3 class="menu-card-tittle">Bunga merah</h3>
+          <p>Bunga yang indah</p>
+          <p class="menu-card-price">Rp 75.000</p>
+          <a href="#" class="cta">Beli sekarang</a>
+      </div>
+      <div class="menu-card">
+          <img src="img2/Millionaire-Baby-Money-Bouquet_350x.webp" alt="Bunga uang" class="menu-card-img" />
+          <h3 class="menu-card-tittle">Buket uang 50.000</h3>
+          <p>Bunga yang indah</p>
+          <p class="menu-card-price">Ro 300.000</p>
+          <a href="#" class="cta">Beli sekarang</a>
+      </div>
+      <div class="menu-card">
+          <img src="img2/uang1.png" alt="Bunga uang" class="menu-card-img" />
+          <h3 class="menu-card-tittle">Buket uang 10.000</h3>
+          <p>Bunga yang indah</p>
+          <p class="menu-card-price">Rp 150.000</p>
+          <a href="#" class="cta">Beli sekarang</a>
+      </div>
+      <div class="menu-card">
+          <img src="img2/uang 4.jpg" alt="Bunga boneka" class="menu-card-img" />
+          <h3 class="menu-card-tittle">Buket boneka wisuda</h3>
+          <p>Buket bunga yang indah</p>
+          <p class="menu-card-price">Rp 50.000</p>
+          <a href="#" class="cta">Beli sekarang</a>
+      </div>
+      <div class="menu-card">
+          <img src="img2/uang 3.png" alt="Bunga makanan" class="menu-card-img" />
+          <h3 class="menu-card-tittle">Buket makanan</h3>
+          <p>Bunga yang indah</p>
+          <p class="menu-card-price">Rp 70.000</p>
+          <a href="#" class="cta">Beli sekarang</a>
+      </div>
+      <div class="menu-card">
+          <img src="img2/uang 2.jpeg" alt="Bunga cokelat" class="menu-card-img" />
+          <h3 class="menu-card-tittle">Bunga cokelat</h3>
+          <p class="menu-card-price">100.000</p>
+          <a href="#" class="cta">beli sekarang</a>
+      </div>
+      
+      
+    </section>
+
+    <!-- menu section end -->
+
+    <!-- contact section start -->
+     <section id="contact" class="contact">
+     <h2><span>Kontak</span> kami</h2>
+     <p>Hubungi dan daftar diri anda agar menjadi bagian orang ganteng</p>
+
+     <div class="row">
+
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3961.1552278622726!2d107.60606737475656!3d-6.871996593126722!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e68e6ef36ff0f43%3A0xe747a6f10204bd3d!2sJl.%20Gunung%20Kencana%20No.5%2C%20Ciumbuleuit%2C%20Kec.%20Cidadap%2C%20Kota%20Bandung%2C%20Jawa%20Barat%2040141!5e0!3m2!1sid!2sid!4v1744962127731!5m2!1sid!2sid"allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" class="map"></iframe>
+   
+     <form action="">
+      <div class="input-group">
+        <i data-feather="user"></i>
+        <input type="text" placeholder="nama">
+      </div>
+      <div class="input-group">
+        <i data-feather="mail"></i>
+        <input type="text" placeholder="email">
+      </div>
+      <div class="input-group">
+        <i data-feather="phone"></i>
+        <input type="text" placeholder="no hp">
+      </div>
+      <button type="submit" class="btn">kirim pesan</button>
+     </form>
+
+     </section>
+
+    <!-- contact section end -->
+
+    <!-- footer start -->
+<footer>
+  <div class="socials">
+    <a href="#"><i data-feather="instagram"></i></a>
+    <a href="#"><i data-feather="twitter"></i></a>
+    <a href="#"><i data-feather="facebook"></i></a>
+  </div>
+
+  <div class="links">
+    <a href="#home">Home</a>
+    <a href="#about">Tentang kami</a>
+    <a href="#menu">Menu</a>
+    <a href="#kontak">Kontak</a>
+  </div>
+
+  <div class="credit">
+    <p>created by <a href="">Ziddan Lazuardi Ibrahim</a>| &copy; 2025.</p>
+  </div>
+</footer>
+
+    <!-- footer end -->
+
+    <!-- feather icons -->
+    <script>
+      feather.replace();
+    </script>
+
+    <!-- my javascript -->
+    <script src="js/script.js"></script>
+  </body>
+</html>
